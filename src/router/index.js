@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Dashboard from "@/views/DashboardPage";
 import GridSystem from "@/views/GridSystemPage";
 import GridListPage from "@/views/GridListPage";
+import BreakPoints from "@/views/BreakPoints";
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/grid-list-page',
     name: 'GridListPage',
     component: GridListPage,
+  },
+  {
+    path: '/breakpoints',
+    name: 'BreakPoints',
+    component: BreakPoints,
   },
 ]
 

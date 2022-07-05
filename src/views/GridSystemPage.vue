@@ -76,7 +76,7 @@
         </v-row>
       </v-card>
       <v-card class="pa-3">
-        <v-row>
+        <v-row justify="end">
           <v-col cols="auto">
             <v-card class="pa-3" outlined>
               Col
